@@ -1,0 +1,311 @@
+[
+  {
+    "path": "armoredBossCrouch.png"
+  },
+  {
+    "path": "armoredBossDrop.png"
+  },
+  {
+    "path": "armoredBossJump.png"
+  },
+  {
+    "path": "armoredBossNormal.png"
+  },
+  {
+    "path": "backgroundDebug.png"
+  },
+  {
+    "path": "backgroundEvening.png"
+  },
+  {
+    "path": "backgroundMorning.png"
+  },
+  {
+    "path": "backgroundNoon.png"
+  },
+  {
+    "path": "backgroundPacking.png"
+  },
+  {
+    "path": "BGMBoss1.mp3"
+  },
+  {
+    "path": "BGMMenu.mp3"
+  },
+  {
+    "path": "BGMScenario.mp3"
+  },
+  {
+    "path": "BGMStage1.mp3"
+  },
+  {
+    "path": "cartShape.svg"
+  },
+  {
+    "path": "cartTexture.png"
+  },
+  {
+    "path": "cartWheel0.png"
+  },
+  {
+    "path": "cartWheel1.png"
+  },
+  {
+    "path": "dialogKibitaro.png"
+  },
+  {
+    "path": "dialogObaasan.png"
+  },
+  {
+    "path": "dialogOjisan.png"
+  },
+  {
+    "path": "dirteffect.png"
+  },
+  {
+    "path": "enemyBullet.png"
+  },
+  {
+    "path": "floor.png"
+  },
+  {
+    "path": "goldIcon.png"
+  },
+  {
+    "path": "gun.png"
+  },
+  {
+    "path": "gunEnemy.png"
+  },
+  {
+    "path": "HUDLevelArcEmpty.png"
+  },
+  {
+    "path": "HUDLevelArcFull.png"
+  },
+  {
+    "path": "itemCollisionBulletSpeedItem.svg"
+  },
+  {
+    "path": "itemCollisionDamageUpItem.svg"
+  },
+  {
+    "path": "itemCollisionDangoItem.svg"
+  },
+  {
+    "path": "itemCollisionHealItem.svg"
+  },
+  {
+    "path": "itemCollisionMaxHPUpItem.svg"
+  },
+  {
+    "path": "itemCollisionShieldItem.svg"
+  },
+  {
+    "path": "itemCollisionSpeedItem.svg"
+  },
+  {
+    "path": "itemIconBulletSpeedItem.png"
+  },
+  {
+    "path": "itemIconCartSizeItem.png"
+  },
+  {
+    "path": "itemIconDamageUpItem.png"
+  },
+  {
+    "path": "itemIconDangoItem.png"
+  },
+  {
+    "path": "itemIconHealItem.png"
+  },
+  {
+    "path": "itemIconMaxHPUpItem.png"
+  },
+  {
+    "path": "itemIconShieldItem.png"
+  },
+  {
+    "path": "itemIconSpeedItem.png"
+  },
+  {
+    "path": "itemTextureBulletSpeedItem.png"
+  },
+  {
+    "path": "itemTextureDamageUpItem.png"
+  },
+  {
+    "path": "itemTextureDangoItem.png"
+  },
+  {
+    "path": "itemTextureHealItem.png"
+  },
+  {
+    "path": "itemTextureMaxHPUpItem.png"
+  },
+  {
+    "path": "itemTextureShieldItem.png"
+  },
+  {
+    "path": "itemTextureSpeedItem.png"
+  },
+  {
+    "path": "kibitaroHand.png"
+  },
+  {
+    "path": "kibitaroWalk0.png"
+  },
+  {
+    "path": "kibitaroWalk1.png"
+  },
+  {
+    "path": "kibitaroWalk2.png"
+  },
+  {
+    "path": "kibitaroWalk3.png"
+  },
+  {
+    "path": "madoufmg.ttf"
+  },
+  {
+    "path": "menuBackground.png"
+  },
+  {
+    "path": "menuLogo.png"
+  },
+  {
+    "path": "oniWalk0.png"
+  },
+  {
+    "path": "oniWalk1.png"
+  },
+  {
+    "path": "oniWalk2.png"
+  },
+  {
+    "path": "oniWalk3.png"
+  },
+  {
+    "path": "packingBackground.png"
+  },
+  {
+    "path": "packingItemPanelUIBase.png"
+  },
+  {
+    "path": "packingItemPanelUIHover0.png"
+  },
+  {
+    "path": "packingItemPanelUIHover1.png"
+  },
+  {
+    "path": "packingItemPanelUIHover2.png"
+  },
+  {
+    "path": "packingItemPanelUIHover3.png"
+  },
+  {
+    "path": "packingItemPanelUIPress0.png"
+  },
+  {
+    "path": "packingItemPanelUIPress1.png"
+  },
+  {
+    "path": "packingItemPanelUIPress2.png"
+  },
+  {
+    "path": "packingItemPanelUIPress3.png"
+  },
+  {
+    "path": "playerBullet.png"
+  },
+  {
+    "path": "SEConfirm.mp3"
+  },
+  {
+    "path": "SEHeal.mp3"
+  },
+  {
+    "path": "SEItemExplode.mp3"
+  },
+  {
+    "path": "SEPanelButtonPress.mp3"
+  },
+  {
+    "path": "slideBlack.png"
+  },
+  {
+    "path": "slideBusiness.png"
+  },
+  {
+    "path": "takenoko.png"
+  },
+  {
+    "path": "takenokoCollision.svg"
+  },
+  {
+    "path": "takenokoEnemy.png"
+  },
+  {
+    "path": "toge.png"
+  },
+  {
+    "path": "togeEnemy.png"
+  },
+  {
+    "path": "uiButtonBackHover.png"
+  },
+  {
+    "path": "uiButtonBackNone.png"
+  },
+  {
+    "path": "uiButtonBackPress.png"
+  },
+  {
+    "path": "uiButtonConfirmHover.png"
+  },
+  {
+    "path": "uiButtonConfirmNone.png"
+  },
+  {
+    "path": "uiButtonConfirmPress.png"
+  },
+  {
+    "path": "uiButtonPackingCartNextHover.png"
+  },
+  {
+    "path": "uiButtonPackingCartNextNone.png"
+  },
+  {
+    "path": "uiButtonPackingCartNextPress.png"
+  },
+  {
+    "path": "uiButtonPackingPauseHover.png"
+  },
+  {
+    "path": "uiButtonPackingPauseNone.png"
+  },
+  {
+    "path": "uiButtonPackingPausePress.png"
+  },
+  {
+    "path": "uiButtonPackingPlayHover.png"
+  },
+  {
+    "path": "uiButtonPackingPlayNone.png"
+  },
+  {
+    "path": "uiButtonPackingPlayPress.png"
+  },
+  {
+    "path": "uiButtonPackingResetHover.png"
+  },
+  {
+    "path": "uiButtonPackingResetNone.png"
+  },
+  {
+    "path": "uiButtonPackingResetPress.png"
+  },
+  {
+    "path": "uiDialogBox.png"
+  }
+]
