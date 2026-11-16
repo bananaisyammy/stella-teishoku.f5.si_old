@@ -1,0 +1,251 @@
+[
+    {
+        "name": "ステージ1 - 旅立ちの朝",
+        "timeLimit": 300,
+        "chunks": [
+            
+            {
+                "enemies": [],
+                "events": [
+                    {
+                        "type": "dialog",
+                        "triggerX": 0,
+                        "chara": "dialogOjisan.png",
+                        "text": "きび太郎、いよいよ出発じゃ！"
+                    },
+                    {
+                        "type": "dialog",
+                        "triggerX": 100,
+                        "chara": "dialogOjisan.png",
+                        "text": "まず基本の操作からじゃ\n*600*ADキーか矢印キーで移動できるぞ！"
+                    },
+                    {
+                        "type": "dialog",
+                        "triggerX": 300,
+                        "chara": "dialogOjisan.png",
+                        "text": "左クリックかスペースキーで、銃を発射できるぞ\nマウスで照準を合わせて敵を撃つのじゃ！"
+                    },
+                    {
+                        "type": "dialog",
+                        "triggerX": 600,
+                        "chara": "dialogOjisan.png",
+                        "text": "Shiftキーを押しながら移動でダッシュもできるのじゃ\n健闘を祈る！"
+                    }
+                ]
+            },
+            {
+                "enemies": [
+                    {"type": "gunEnemy", "x": 2000},
+                    {"type": "gunEnemy", "x": 2400}
+                ],
+                "events": [
+                    {
+                        "type": "dialog",
+                        "triggerX": 200,
+                        "chara": "dialogOjisan.png",
+                        "text": "おっと、*300*敵襲じゃ！"
+                    },
+                    {
+                        "type": "dialog",
+                        "triggerX": 800,
+                        "chara": "dialogOjisan.png",
+                        "text": "目には目を、銃には銃をじゃ！*300*きびたろう、*200*早速腕の見せ所じゃぞ！"
+                    }
+                ]
+            },
+            {
+                "enemies": [
+                    {"type": "gunEnemy", "x": 1600},
+                    {"type": "gunEnemy", "x": 1800},
+                    {"type": "gunEnemy", "x": 2500},
+                    {"type": "gunEnemy", "x": 2700}
+                ],
+                "events": [
+                    {
+                        "type": "dialog",
+                        "triggerX": 100,
+                        "chara": "dialogOjisan.png",
+                        "text": "数が増えてきたのう...*600*前進後退をうまく使って、華麗なかわしを見せてやるのじゃ！"
+                    }
+                ]
+            },
+            {
+                "enemies": [
+                    {"type": "gunEnemy", "x": 1500},
+                    {"type": "gunEnemy", "x": 1600},
+                    {"type": "gunEnemy", "x": 2200},
+                    {"type": "gunEnemy", "x": 2400},
+                    {"type": "gunEnemy", "x": 2800}
+                ]
+            },
+            {
+                "enemies": [
+                    {"type": "togeEnemy", "x": 1800},
+                    {"type": "gunEnemy", "x": 2200},
+                    {"type": "gunEnemy", "x": 2600}
+                ],
+                "events": [
+                    {
+                        "type": "dialog",
+                        "triggerX": 100,
+                        "chara": "dialogOjisan.png",
+                        "text": "さっきと違う種類の鬼がいるぞ！*600*鉄球を投げてくる敵のようじゃ。当たったら痛そうじゃのう..."
+                    }
+                ]
+            },
+            {
+                "enemies": [
+                    {"type": "togeEnemy", "x": 1600},
+                    {"type": "togeEnemy", "x": 2000},
+                    {"type": "gunEnemy", "x": 2400},
+                    {"type": "gunEnemy", "x": 2800}
+                ],
+                "events": [
+                    {
+                        "type": "dialog",
+                        "triggerX": 100,
+                        "chara": "dialogOjisan.png",
+                        "text": "２体もトゲ鬼が...ダッシュで球をよけ、銃で仕留めるのじゃ！"
+                    },
+                    {
+                        "type": "dialog",
+                        "triggerX": 800,
+                        "chara": "dialogObaasan.png",
+                        "text": "台車を倒されないように気をつけて！*600*きびだんごを守るのよ！"
+                    }
+                ]
+            },
+            {
+                "enemies": [
+                    {"type": "gunEnemy", "x": 1400},
+                    {"type": "togeEnemy", "x": 1700},
+                    {"type": "gunEnemy", "x": 2100},
+                    {"type": "togeEnemy", "x": 2500},
+                    {"type": "togeEnemy", "x": 2900}
+                ],
+                "events": [
+                    {
+                        "type": "dialog",
+                        "triggerX": 100,
+                        "chara": "dialogOjisan.png",
+                        "text": "トゲ鬼を銃鬼が援護してくるぞ！防御を固めるんじゃ！"
+                    }
+                ]
+            },
+            {
+                "enemies": [
+                    {"type": "togeEnemy", "x": 1500},
+                    {"type": "togeEnemy", "x": 1800},
+                    {"type": "gunEnemy", "x": 2100},
+                    {"type": "togeEnemy", "x": 2400},
+                    {"type": "gunEnemy", "x": 2700},
+                    {"type": "gunEnemy", "x": 3000}
+                ]
+            },
+            {
+                "enemies": [
+                    {"type": "togeEnemy", "x": 1400},
+                    {"type": "gunEnemy", "x": 1700},
+                    {"type": "togeEnemy", "x": 2000},
+                    {"type": "gunEnemy", "x": 2300},
+                    {"type": "togeEnemy", "x": 2600},
+                    {"type": "gunEnemy", "x": 2900},
+                    {"type": "togeEnemy", "x": 3200}
+                ],
+                "events": [
+                    {
+                        "type": "dialog",
+                        "triggerX": 100,
+                        "chara": "dialogOjisan.png",
+                        "text": "これは激しいぞ！トゲ鬼と銃鬼の混合部隊じゃ！\n*600*1体ずつ確実に倒すのじゃ！"
+                    }
+                ]
+            },
+            {
+                "enemies": [
+                    {"type": "togeEnemy", "x": 1300},
+                    {"type": "togeEnemy", "x": 1600},
+                    {"type": "gunEnemy", "x": 1900},
+                    {"type": "togeEnemy", "x": 2200},
+                    {"type": "gunEnemy", "x": 2500},
+                    {"type": "togeEnemy", "x": 2800},
+                    {"type": "gunEnemy", "x": 3100},
+                    {"type": "gunEnemy", "x": 3400}
+                ],
+                "events": [
+                    {
+                        "type": "dialog",
+                        "triggerX": 100,
+                        "chara": "dialogOjisan.png",
+                        "text": "ここが敵のピークじゃ！\n*600*特性きびだんごのの力で乗り切るんだ！"
+                    }
+                ]
+            },
+            {
+                "enemies": [
+                    {"type": "takenokoEnemy", "x": 1400},
+                    {"type": "togeEnemy", "x": 1800},
+                    {"type": "gunEnemy", "x": 2300},
+                    {"type": "gunEnemy", "x": 2600}
+                ],
+                "events": [
+                    {
+                        "type": "dialog",
+                        "triggerX": 100,
+                        "chara": "dialogOjisan.png",
+                        "text": "新しい敵じゃ。ちっちゃいが油断はできんぞ！\n*600*そいつにタケノコを植えられると厄介じゃ*600*\nそれ踏んだときの成長速度は尋常じゃないからのう..."
+                    }
+                ]
+            },
+            {
+                "enemies": [
+                    {"type": "takenokoEnemy", "x": 1500},
+                    {"type": "togeEnemy", "x": 1800},
+                    {"type": "togeEnemy", "x": 2100},
+                    {"type": "gunEnemy", "x": 2500},
+                    {"type": "gunEnemy", "x": 2800}
+                ]
+            },
+            {
+                "enemies": [
+                    {"type": "takenokoEnemy", "x": 1400},
+                    {"type": "togeEnemy", "x": 1700},
+                    {"type": "takenokoEnemy", "x": 2000},
+                    {"type": "togeEnemy", "x": 2200},
+                    {"type": "gunEnemy", "x": 2600},
+                    {"type": "gunEnemy", "x": 2900}
+                ],
+                "events": [
+                    {
+                        "type": "dialog",
+                        "triggerX": 100,
+                        "chara": "dialogOjisan.png",
+                        "text": "「タケノコ鬼の妨害に気を取られすぎると、銃鬼とトゲ鬼の連携にやられてしまうぞ！」"
+                    }
+                ]
+            },
+            {
+                "enemies": [
+                    {"type": "takenokoEnemy", "x": 1300},
+                    {"type": "togeEnemy", "x": 1600},
+                    {"type": "togeEnemy", "x": 1900},
+                    {"type": "togeEnemy", "x": 2200},
+                    {"type": "gunEnemy", "x": 2500},
+                    {"type": "gunEnemy", "x": 2800},
+                    {"type": "gunEnemy", "x": 3100}
+                ]
+            },
+            {
+                "enemies": [{"type": "armoredBoss", "x": 1400}],
+                "events": [
+                    {
+                        "type": "dialog",
+                        "triggerX": 500,
+                        "chara": "dialogOjisan.png",
+                        "text": "!!*600*ついに大将が現れたぞ！*600*"
+                    }
+                ]
+            }
+        ]
+    }
+]

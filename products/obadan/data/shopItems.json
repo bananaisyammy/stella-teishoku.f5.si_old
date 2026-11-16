@@ -1,0 +1,86 @@
+﻿[
+  {
+    "className": "SpeedItem",
+    "name": "スピードUP",
+    "description": "プレイヤーの移動速度が20%向上する。",
+    "basePrice": 40,
+    "priceMultiplier": 1.3,
+    "maxPurchaseCount": 5,
+    "weight": 10,
+    "iconKey": "itemIconSpeedItem",
+    "textureKey": "itemTextureSpeedItem",
+    "collisionKey": "itemCollisionSpeedItem"
+  },
+  {
+    "className": "HealItem",
+    "name": "HP回復",
+    "description": "戦闘中にアイテムをクリックでhpを50%回復できる。",
+    "basePrice": 30,
+    "priceMultiplier": 1,
+    "maxPurchaseCount": 5,
+    "weight": 15,
+    "iconKey": "itemIconHealItem",
+    "textureKey": "itemTextureHealItem",
+    "collisionKey": "itemCollisionHealItem"
+  },
+  {
+    "className": "MaxHPUpItem",
+    "name": "最大HPUP",
+    "description": "最大HPを50%増加させ、全回復する\nすこし大きめ",
+    "basePrice": 100,
+    "priceMultiplier": 1.5,
+    "maxPurchaseCount": 3,
+    "weight": 10,
+    "iconKey": "itemIconMaxHPUpItem",
+    "textureKey": "itemTextureMaxHPUpItem",
+    "collisionKey": "itemCollisionMaxHPUpItem"
+  },
+  {
+    "className": "ShieldItem",
+    "name": "防御力UP",
+    "description": "受けるダメージを3/4に軽減する\nすこし大きめ",
+    "basePrice": 40,
+    "priceMultiplier": 1.4,
+    "maxPurchaseCount": 5,
+    "weight": 25,
+    "iconKey": "itemIconShieldItem",
+    "textureKey": "itemTextureShieldItem",
+    "collisionKey": "itemCollisionShieldItem"
+  },
+  {
+    "className": "BulletSpeedItem",
+    "name": "弾速UP",
+    "description": "弾の飛ぶ速さが50%上がる\nより遠くに弾が飛ぶようになり、ノックバックも強くなる",
+    "basePrice": 70,
+    "priceMultiplier": 1.25,
+    "maxPurchaseCount": 5,
+    "weight": 10,
+    "iconKey": "itemIconBulletSpeedItem",
+    "textureKey": "itemTextureBulletSpeedItem",
+    "collisionKey": "itemCollisionBulletSpeedItem"
+  },
+  {
+    "className": "DamageUpItem",
+    "name": "攻撃力UP",
+    "description": "攻撃力が50%上がる",
+    "basePrice": 90,
+    "priceMultiplier": 1.4,
+    "maxPurchaseCount": 5,
+    "weight": 10,
+    "iconKey": "itemIconDamageUpItem",
+    "textureKey": "itemTextureDamageUpItem",
+    "collisionKey": "itemCollisionDamageUpItem"
+  },
+  {
+    "className": "CartSizeItem",
+    "name": "カート拡大",
+    "description": "カートの横幅を40%拡張してより多くの荷物を積めるようになる",
+    "basePrice": 100,
+    "priceMultiplier": 1.7,
+    "maxPurchaseCount": 5,
+    "weight": 50,
+    "iconKey": "itemIconCartSizeItem",
+    "textureKey": "itemTextureCartSizeItem",
+    "collisionKey": "itemCollisionCartSizeItem"
+  }
+]
