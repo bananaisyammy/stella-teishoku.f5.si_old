@@ -1,11 +1,16 @@
 {
   "shop_enter_first": [
     { "chara": "dialogOjisan.png", "text": "ここでは戦いに役立ついろんなものが購入できるぞ！" },
+    { "chara": "dialogOjisan.png", "text": "まずは、きびだんごを積むためのパネルを購入するのじゃ！" },
+    { "chara": "dialogOjisan.png", "text": "...とりあえず、パネルを購入しておくのが無難じゃろう。" },
     { "chara": "dialogOjisan.png", "text": "鬼によっての相性もあるようじゃぞ。心して選ぶんじゃ。" }
   ],
   "packing_enter_first": [
     { "chara": "dialogOjisan.png", "text": "何事も準備が肝心じゃぞ　*600*きびだんごを載せて出発じゃ！" },
+    { "chara": "dialogOjisan.png", "text": "まずは＋タブを選択して、アイテムをな追加モードにするんじゃ" },
+    { "chara": "dialogOjisan.png", "text": "パネルできびだんごを選択しておきたいところでクリックするんじゃ\n*600*スペースがあればきびだんごを載せられるはずじゃ！" },
     { "chara": "dialogObaasan.png", "text": "噂によれば、　きびだんごを大切にした者は万一倒れても蘇るそうよ！" },
+    { "chara": "dialogOjisan.png", "text": "きびだんごを積めたら準備は完了じゃぞ！*300*右上の完了ボタンを押してついに出発じゃ！" },
     { "chara": "dialogObaasan.png", "text": "わたしたちが作った大切なきびだんご、落としちゃだめよ！絶対！！" }
   ],
   "gameover_hp_zero": [
