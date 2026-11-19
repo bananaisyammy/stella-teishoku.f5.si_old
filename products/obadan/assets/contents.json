@@ -219,7 +219,19 @@
     "path": "playerBullet.png"
   },
   {
+    "path": "SEBackButton.mp3"
+  },
+  {
     "path": "SEConfirm.mp3"
+  },
+  {
+    "path": "SEDialogStream.mp3"
+  },
+  {
+    "path": "SEEnemyExplode.mp3"
+  },
+  {
+    "path": "SEGun.mp3"
   },
   {
     "path": "SEHeal.mp3"
@@ -229,6 +241,15 @@
   },
   {
     "path": "SEPanelButtonPress.mp3"
+  },
+  {
+    "path": "SETakenokoPop.mp3"
+  },
+  {
+    "path": "SETogeDrop.mp3"
+  },
+  {
+    "path": "SETogeThrow.mp3"
   },
   {
     "path": "slideBlack.png"

@@ -1,7 +1,7 @@
 {
   "shop_enter_first": [
     { "chara": "dialogOjisan.png", "text": "ここでは戦いに役立ついろんなものが購入できるぞ！" },
-    { "chara": "dialogOjisan.png", "text": "まずは、きびだんごを積むためのパネルを購入するのじゃ！" },
+    { "chara": "dialogOjisan.png", "text": "操作の基本は最初と同じ、右下で荷物の購入ができるぞ！" },
     { "chara": "dialogOjisan.png", "text": "...とりあえず、パネルを購入しておくのが無難じゃろう。" },
     { "chara": "dialogOjisan.png", "text": "鬼によっての相性もあるようじゃぞ。心して選ぶんじゃ。" }
   ],

@@ -14,7 +14,7 @@
   {
     "className": "HealItem",
     "name": "HP回復",
-    "description": "戦闘中にアイテムをクリックでhpを50%回復できる。",
+    "description": "戦闘中に荷物をクリックでhpを30%回復できる。\n旅のお供に一つは持っておきたい必須アイテム",
     "basePrice": 30,
     "priceMultiplier": 1,
     "maxPurchaseCount": 5,
