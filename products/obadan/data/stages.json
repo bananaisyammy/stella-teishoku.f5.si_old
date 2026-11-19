@@ -66,33 +66,16 @@
                         "triggerX": 100,
                         "chara": "dialogOjisan.png",
                         "text": "数が増えてきたのう...*600*前進後退をうまく使って、華麗なかわしを見せてやるのじゃ！"
-                    }
-                ]
-            },
-            {
-                "enemies": [
-                    {"type": "gunEnemy", "x": 1500},
-                    {"type": "gunEnemy", "x": 1600},
-                    {"type": "gunEnemy", "x": 2200},
-                    {"type": "gunEnemy", "x": 2400},
-                    {"type": "gunEnemy", "x": 2800}
-                ]
-            },
-            {
-                "enemies": [
-                    {"type": "togeEnemy", "x": 1800},
-                    {"type": "gunEnemy", "x": 2200},
-                    {"type": "gunEnemy", "x": 2600}
-                ],
-                "events": [
+                    },
                     {
                         "type": "dialog",
-                        "triggerX": 100,
-                        "chara": "dialogOjisan.png",
-                        "text": "さっきと違う種類の鬼がいるぞ！*600*鉄球を投げてくる敵のようじゃ。当たったら痛そうじゃのう..."
+                        "triggerX": 800,
+                        "chara": "dialogObaasan.png",
+                        "text": "クリックでずっと銃を撃ちながら向きを調整するのがコツよ！"
                     }
                 ]
             },
+
             {
                 "enemies": [
                     {"type": "togeEnemy", "x": 1600},
@@ -105,7 +88,7 @@
                         "type": "dialog",
                         "triggerX": 100,
                         "chara": "dialogOjisan.png",
-                        "text": "２体もトゲ鬼が...ダッシュで球をよけ、銃で仕留めるのじゃ！"
+                        "text": "さっきと違う種類の鬼がいるぞ！*600*鉄球を投げてくる敵のようじゃ。当たったら痛そうじゃのう..."
                     },
                     {
                         "type": "dialog",
@@ -130,16 +113,6 @@
                         "chara": "dialogOjisan.png",
                         "text": "トゲ鬼を銃鬼が援護してくるぞ！防御を固めるんじゃ！"
                     }
-                ]
-            },
-            {
-                "enemies": [
-                    {"type": "togeEnemy", "x": 1500},
-                    {"type": "togeEnemy", "x": 1800},
-                    {"type": "gunEnemy", "x": 2100},
-                    {"type": "togeEnemy", "x": 2400},
-                    {"type": "gunEnemy", "x": 2700},
-                    {"type": "gunEnemy", "x": 3000}
                 ]
             },
             {
@@ -193,17 +166,8 @@
                         "type": "dialog",
                         "triggerX": 100,
                         "chara": "dialogOjisan.png",
-                        "text": "新しい敵じゃ。ちっちゃいが油断はできんぞ！\n*600*そいつにタケノコを植えられると厄介じゃ*600*\nそれ踏んだときの成長速度は尋常じゃないからのう..."
+                        "text": "新しい敵じゃ。ちっちゃいが油断はできんぞ！\n*600*そいつが植えたタケノコの上に乗ったが最後、*200*その凄まじい成長速度の餌食になってしまうんじゃ...\nバックでギリギリ回避できることもあるが、好奇心で乗るのはおすすめできんぞ、、"
                     }
-                ]
-            },
-            {
-                "enemies": [
-                    {"type": "takenokoEnemy", "x": 1500},
-                    {"type": "togeEnemy", "x": 1800},
-                    {"type": "togeEnemy", "x": 2100},
-                    {"type": "gunEnemy", "x": 2500},
-                    {"type": "gunEnemy", "x": 2800}
                 ]
             },
             {
@@ -220,7 +184,19 @@
                         "type": "dialog",
                         "triggerX": 100,
                         "chara": "dialogOjisan.png",
-                        "text": "「タケノコ鬼の妨害に気を取られすぎると、銃鬼とトゲ鬼の連携にやられてしまうぞ！」"
+                        "text": "何故かは知らんがトゲ鉄球の鬼を倒すとお金がガッポリじゃ。\n*600*鉄球が高くつくのかのう？"
+                    },
+                    {
+                        "type": "dialog",
+                        "triggerX": 125,
+                        "chara": "dialogObaasan.png",
+                        "text": "もらえるものはもらっておきましょう！帰りが楽しみだわ！"
+                    },
+                    {
+                        "type": "dialog",
+                        "triggerX": 135,
+                        "chara": "dialogKibidango.png",
+                        "text": "..."
                     }
                 ]
             },
@@ -233,6 +209,43 @@
                     {"type": "gunEnemy", "x": 2500},
                     {"type": "gunEnemy", "x": 2800},
                     {"type": "gunEnemy", "x": 3100}
+                ]
+            },
+            {
+                "enemies": [
+                ],
+                "events": [
+                    {
+                        "type": "dialog",
+                        "triggerX": 600,
+                        "chara": "dialogObaasan.png",
+                        "text": "何もいない.*200*.*200*.わね..."
+                    }
+                ]
+            },
+            {
+                "enemies": [
+                    {"type": "armoredBoss", "x": 1400}
+                ],
+                "events": [
+                    {
+                        "type": "dialog",
+                        "triggerX": 100,
+                        "chara": "dialogObaasan.png",
+                        "text": "み、見て！鬼の大将がいるわよ！"
+                    },
+                    {
+                        "type": "dialog",
+                        "triggerX": 600,
+                        "chara": "dialogOjisan.png",
+                        "text": "どうりで静かじゃったわけじゃ...*600*\nふんばれきびたろう、これが終われば宿じゃぞ！"
+                    },
+                    {
+                        "type": "dialog",
+                        "triggerX": 800,
+                        "chara": "dialogObaasan.png",
+                        "text": "うまく避けないときびだんごが危ないわ！落としたら許さないわよ！！"
+                    }
                 ]
             },
             {

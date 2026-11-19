@@ -3,7 +3,7 @@
   "bgm": "BGMScenario",
   "slides": [
     { "bg": "slideMorning.png", "chara": "dialogKibitaro.png", "text": "事件の始まりの日。*600*\n\n\n(スペース/クリックで次へ)" },
-    { "bg": "slideBusiness.png", "chara": "dialogOjisan.png", "text": "わしらは村で、おばあさんの作ったきびだんごを売って暮らしておったんじゃ。" },
+    { "bg": "slideBusiness.png", "chara": "dialogOjisan.png", "text": "わしらは村で、おばあさんの作ったきびだんごを売って暮らしておったんじゃ。\n\n(右上のボタンでスキップ)" },
     { "bg": "slideBusiness.png", "chara": "dialogObaasan.png", "text": "その日も、きびだんごはよく売れたわ" },
     { "bg": "slideEvening.png", "chara": "dialogKibitaro.png", "text": "でも、店を閉めて僕たちが片づけをしていたとき" },
     { "bg": "slideEvening.png", "chara": "dialogObaasan.png", "text": "家の前で見てしまったの" },
