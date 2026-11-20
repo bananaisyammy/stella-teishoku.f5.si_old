@@ -330,6 +330,15 @@
     "path": "uiButtonConfirmPress.png"
   },
   {
+    "path": "uiButtonHelpHover.png"
+  },
+  {
+    "path": "uiButtonHelpNone.png"
+  },
+  {
+    "path": "uiButtonHelpPress.png"
+  },
+  {
     "path": "uiButtonPackingCartNextHover.png"
   },
   {

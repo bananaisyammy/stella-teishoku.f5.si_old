@@ -74,7 +74,7 @@
   {
     "className": "CartSizeItem",
     "name": "カート拡大",
-    "description": "カートの横幅を40%拡張してより多くの荷物を積めるようになる。\n荷物の整理整頓にはこれでおさらば。",
+    "description": "カートの横幅を40%拡張。\n荷物の整理整頓におさらばできるもはやインフラのアイテム。",
     "basePrice": 100,
     "priceMultiplier": 1.7,
     "maxPurchaseCount": 5,

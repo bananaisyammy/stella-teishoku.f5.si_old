@@ -22,13 +22,19 @@
                         "type": "dialog",
                         "triggerX": 300,
                         "chara": "dialogOjisan.png",
-                        "text": "左クリックかスペースキーで、銃を発射できるぞ\nマウスで照準を合わせて敵を撃つのじゃ！"
+                        "text": "左クリックかスペースキーで、銃を発射できるぞ\n*600*マウスで照準を合わせて敵を撃つのじゃ！"
                     },
                     {
                         "type": "dialog",
                         "triggerX": 600,
+                        "chara": "dialogObaasan.png",
+                        "text": "A/Dの移動キーと、ダッシュキー(wとsどちらでもいいわよ)を交互に連打でダッシュもできるわよ！\n\n*600*(物理的に疲れるから無理はしちゃだめよ!)"
+                    },
+                    {
+                        "type": "dialog",
+                        "triggerX": 800,
                         "chara": "dialogOjisan.png",
-                        "text": "Shiftキーを押しながら移動でダッシュもできるのじゃ\n健闘を祈る！"
+                        "text": "ちなみに、銃は長押しでも連射できるぞ！\n*600*健闘を祈る！"
                     }
                 ]
             },
@@ -111,7 +117,7 @@
                     },
                     {
                         "type": "gunEnemy",
-                        "x": 1100,
+                        "x": 1000,
                         
                         "overrides": {
                             "hp": 1,
@@ -171,6 +177,43 @@
                         "triggerX": 800,
                         "chara": "dialogObaasan.png",
                         "text": "クリックでずっと銃を撃ちながら向きを調整するのがコツよ！\n*600*さっきの敵より弱いわ、すぐ倒せるはずよ！*600*\n頑張って！きびたろう！"
+                    }
+                ]
+            },
+            {   
+                "enemies": [
+                    {
+                        "type": "gunEnemy",
+                        "x": 0,
+                        "overrides": {
+                            "hp": 1,
+                            "attack": {
+                                "damage": 1
+                            },
+                            "width": 41.25,
+                            "height": 63.25,
+                            "reward": {
+                                "gold": 15,
+                                "exp": 5
+                            }
+                        }
+                    },
+                    {
+                        "type": "gunEnemy",
+                        "x": 1000,
+                        
+                        "overrides": {
+                            "hp": 1,
+                            "attack": {
+                                "damage": 1
+                            },
+                            "width": 41.25,
+                            "height": 63.25,
+                            "reward": {
+                                "gold": 15,
+                                "exp": 5
+                            }
+                        }
                     }
                 ]
             },

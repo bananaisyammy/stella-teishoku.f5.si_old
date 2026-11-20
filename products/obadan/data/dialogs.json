@@ -5,6 +5,10 @@
     { "chara": "dialogOjisan.png", "text": "買ったアイテムを荷造りして、再び戦いに挑むんじゃ！" },
     { "chara": "dialogOjisan.png", "text": "鬼によっての相性もあるようじゃぞ。心して選ぶんじゃぞ" }
   ],
+  "help_reject": [
+    { "chara": "dialogOjisan.png", "text": "ドパガキにくれてやる説明はないのじゃ。出直してくるのじゃ。" },
+    { "chara": "dialogOjisan.png", "text": "もう一度ボタンを押したら3/4の確率で許してあげるかもしれないのじゃ。" }
+  ],
   "packing_enter_first": [
     { "chara": "dialogOjisan.png", "text": "何事も準備が肝心じゃぞ　*600*きびだんごを載せて出発じゃ！" },
     { "chara": "dialogOjisan.png", "text": "まずは＋タブを選択して、アイテムをな追加モードにするんじゃ" },
@@ -12,6 +16,9 @@
     { "chara": "dialogObaasan.png", "text": "噂によれば、　きびだんごを大切にした者は万一倒れても蘇るそうよ！" },
     { "chara": "dialogOjisan.png", "text": "きびだんごを積めたら準備は完了じゃぞ！*300*右上の完了ボタンを押してついに出発じゃ！" },
     { "chara": "dialogObaasan.png", "text": "わたしたちが作った大切なきびだんご、落としちゃだめよ！絶対！！" }
+  ],
+  "gameover_jigoku":[
+    { "chara": "dialogObaasan.png", "text": "何かが地獄へ落ちたようだわ...\n*600*ごめんなさい。*600*フィードバックを送ってくれると助かるわ。*600*ただし、*600*故˝*100*意˝*100*な”*100*ら˝*100*˝*100*許さ˝*100*な˝*100*い˝*100*わ˝*100*よ˝*100*??" }
   ],
   "gameover_hp_zero": [
     { "chara": "dialogOjisan.png", "text": "やられてしまったか…次は気をつけるのじゃ。" }
@@ -27,6 +34,9 @@
   ],
   "gameover_hp_zero_armoredBoss": [
     { "chara": "dialogOjisan.png", "text": "きびだんごさえ守れば、何度だって挑戦できるぞ\nドンマイじゃ！" }
+  ],
+  "gameover_time": [
+    { "chara": "dialogOjisan.png", "text": "日が落ちてしまったようじゃ...*600*時間管理は大切じゃぞ!" }
   ],
   "gameover_kibidango_lost": [
     { "chara": "dialogObaasan.png", "text": "よ˝*300*く˝*300*も˝*300*大˝*300*切˝*300*な˝*300*き˝*300*び˝*300*だ˝*300*ん˝*300*ご˝*300*を˝" }
