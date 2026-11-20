@@ -2,8 +2,8 @@
   "shop_enter_first": [
     { "chara": "dialogOjisan.png", "text": "ここでは戦いに役立ついろんなものが購入できるぞ！" },
     { "chara": "dialogOjisan.png", "text": "操作の基本は最初と同じ、右下で荷物の購入ができるぞ！" },
-    { "chara": "dialogOjisan.png", "text": "...とりあえず、パネルを購入しておくのが無難じゃろう。" },
-    { "chara": "dialogOjisan.png", "text": "鬼によっての相性もあるようじゃぞ。心して選ぶんじゃ。" }
+    { "chara": "dialogOjisan.png", "text": "買ったアイテムを荷造りして、再び戦いに挑むんじゃ！" },
+    { "chara": "dialogOjisan.png", "text": "鬼によっての相性もあるようじゃぞ。心して選ぶんじゃぞ" }
   ],
   "packing_enter_first": [
     { "chara": "dialogOjisan.png", "text": "何事も準備が肝心じゃぞ　*600*きびだんごを載せて出発じゃ！" },

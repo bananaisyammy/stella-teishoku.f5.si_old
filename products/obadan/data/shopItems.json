@@ -2,7 +2,7 @@
   {
     "className": "SpeedItem",
     "name": "スピードUP",
-    "description": "プレイヤーの移動速度が20%向上する。",
+    "description": "プレイヤーの移動速度が35%向上する。",
     "basePrice": 40,
     "priceMultiplier": 1.3,
     "maxPurchaseCount": 5,
@@ -16,7 +16,7 @@
     "name": "HP回復",
     "description": "戦闘中に荷物をクリックでhpを30%回復できる。\n旅のお供に一つは持っておきたい必須アイテム",
     "basePrice": 30,
-    "priceMultiplier": 1,
+    "priceMultiplier": 1.5,
     "maxPurchaseCount": 5,
     "weight": 15,
     "iconKey": "itemIconHealItem",
@@ -26,7 +26,7 @@
   {
     "className": "MaxHPUpItem",
     "name": "最大HPUP",
-    "description": "最大HPを50%増加させ、全回復する\nすこし大きめ",
+    "description": "最大HPを50%増加させる\nすこし大きめ\nMAXHP増加のついでに全回復もついてくる",
     "basePrice": 100,
     "priceMultiplier": 1.5,
     "maxPurchaseCount": 3,
@@ -38,7 +38,7 @@
   {
     "className": "ShieldItem",
     "name": "防御力UP",
-    "description": "受けるダメージを3/4に軽減する\nすこし大きめ",
+    "description": "受けるダメージを65%に軽減する\nすこし大きめ\n効果は目に見えにくいが縁の下の力持ち",
     "basePrice": 40,
     "priceMultiplier": 1.4,
     "maxPurchaseCount": 5,
@@ -50,7 +50,7 @@
   {
     "className": "BulletSpeedItem",
     "name": "弾速UP",
-    "description": "弾の飛ぶ速さが50%上がる\nより遠くに弾が飛ぶようになり、ノックバックも強くなる",
+    "description": "弾の飛ぶ速さが50%上がる\n遠くに弾が飛ぶようになり、遠距離攻撃をかわしやすくも\n日々の鬱憤を晴らしたい方にオヌヌメ。",
     "basePrice": 70,
     "priceMultiplier": 1.25,
     "maxPurchaseCount": 5,
@@ -62,8 +62,8 @@
   {
     "className": "DamageUpItem",
     "name": "攻撃力UP",
-    "description": "攻撃力が50%上がる",
-    "basePrice": 90,
+    "description": "攻撃力が50%上がる。鬼をすぐにたおしたいならコレ。",
+    "basePrice": 50,
     "priceMultiplier": 1.4,
     "maxPurchaseCount": 5,
     "weight": 10,
@@ -74,7 +74,7 @@
   {
     "className": "CartSizeItem",
     "name": "カート拡大",
-    "description": "カートの横幅を40%拡張してより多くの荷物を積めるようになる",
+    "description": "カートの横幅を40%拡張してより多くの荷物を積めるようになる。\n荷物の整理整頓にはこれでおさらば。",
     "basePrice": 100,
     "priceMultiplier": 1.7,
     "maxPurchaseCount": 5,

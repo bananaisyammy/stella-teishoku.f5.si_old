@@ -10,25 +10,25 @@
                         "type": "dialog",
                         "triggerX": 0,
                         "chara": "dialogOjisan.png",
-                        "text": "「おーい、きび太郎や。ついに出発の日じゃな。」"
+                        "text": "きび太郎、いよいよ出発じゃ！"
                     },
                     {
                         "type": "dialog",
                         "triggerX": 100,
                         "chara": "dialogOjisan.png",
-                        "text": "「まずは基本の操作を思い出すんじゃ。*600*Dキーか右矢印キーで前進、Aキーか左矢印キーで後退できるぞ。」"
+                        "text": "まず基本の操作からじゃ\n*600*ADキーか矢印キーで移動できるぞ！"
                     },
                     {
                         "type": "dialog",
                         "triggerX": 300,
                         "chara": "dialogOjisan.png",
-                        "text": "「マウスで狙いを定めて左クリック、あるいはFキーで、きびだんごを発射できるわい。」"
+                        "text": "左クリックかスペースキーで、銃を発射できるぞ\nマウスで照準を合わせて敵を撃つのじゃ！"
                     },
                     {
                         "type": "dialog",
                         "triggerX": 600,
                         "chara": "dialogOjisan.png",
-                        "text": "「Shiftキーを押しながら移動すればダッシュもできるぞ。*600*道中、気をつけて行くのじゃぞ。」"
+                        "text": "Shiftキーを押しながら移動でダッシュもできるのじゃ\n健闘を祈る！"
                     }
                 ]
             },
@@ -36,22 +36,25 @@
                 "enemies": [
                     {
                         "type": "gunEnemy",
-                        "x": 2000,
-                        "overrides": { "hp": 10, "attack": { "damage": 1 } }
+                        "x": 1000
+                    },
+                    {
+                        "type": "gunEnemy",
+                        "x": 1400
                     }
                 ],
                 "events": [
                     {
                         "type": "dialog",
-                        "triggerX": 200,
+                        "triggerX": 100,
                         "chara": "dialogOjisan.png",
-                        "text": "「おやっと、早速鉄砲鬼が現れたようじゃな！*600*奴らは遠くから弾を撃ってくるぞ。」"
+                        "text": "おっと、*300*敵襲じゃ！"
                     },
                     {
                         "type": "dialog",
                         "triggerX": 800,
                         "chara": "dialogOjisan.png",
-                        "text": "「まずは1体、落ち着いて狙うのじゃ！」"
+                        "text": "目には目を、銃には銃をじゃ！*300*きびたろう、*200*早速腕の見せ所じゃぞ！"
                     }
                 ]
             },
@@ -59,15 +62,101 @@
                 "enemies": [
                     {
                         "type": "gunEnemy",
-                        "x": 2000,
-                        "yOffset": 0,
-                        "overrides": { "hp": 10, "attack": { "damage": 1 } }
+                        "x": 1800,
+                        "overrides": {
+                            "hp": 1,
+                            "attack": {
+                                "damage": 1
+                            },
+                            "width": 41.25,
+                            "height": 63.25,
+                            "reward": {
+                                "gold": 5,
+                                "exp": 5
+                            }
+                        }
                     },
                     {
                         "type": "gunEnemy",
-                        "x": 2000,
-                        "yOffset": 80,
-                        "overrides": { "hp": 10, "attack": { "damage": 1 } }
+                        "x": 1900,
+                        
+                        "overrides": {
+                            "hp": 1,
+                            "attack": {
+                                "damage": 1
+                            },
+                            "width": 41.25,
+                            "height": 63.25,
+                            "reward": {
+                                "gold": 5,
+                                "exp": 5
+                            }
+                        }
+                    },
+                    {
+                        "type": "gunEnemy",
+                        "x": 1000,
+                        "overrides": {
+                            "hp": 1,
+                            "attack": {
+                                "damage": 1
+                            },
+                            "width": 41.25,
+                            "height": 63.25,
+                            "reward": {
+                                "gold": 5,
+                                "exp": 5
+                            }
+                        }
+                    },
+                    {
+                        "type": "gunEnemy",
+                        "x": 1100,
+                        
+                        "overrides": {
+                            "hp": 1,
+                            "attack": {
+                                "damage": 1
+                            },
+                            "width": 41.25,
+                            "height": 63.25,
+                            "reward": {
+                                "gold": 5,
+                                "exp": 5
+                            }
+                        }
+                    },
+                    {
+                        "type": "gunEnemy",
+                        "x": 1200,
+                        "overrides": {
+                            "hp": 1,
+                            "attack": {
+                                "damage": 1
+                            },
+                            "width": 41.25,
+                            "height": 63.25,
+                            "reward": {
+                                "gold": 5,
+                                "exp": 5
+                            }
+                        }
+                    },
+                    {
+                        "type": "gunEnemy",
+                        "x": 1300,
+                        "overrides": {
+                            "hp": 1,
+                            "attack": {
+                                "damage": 1
+                            },
+                            "width": 41.25,
+                            "height": 63.25,
+                            "reward": {
+                                "gold": 5,
+                                "exp": 5
+                            }
+                        }
                     }
                 ],
                 "events": [
@@ -75,106 +164,112 @@
                         "type": "dialog",
                         "triggerX": 100,
                         "chara": "dialogOjisan.png",
-                        "text": "「今度は縦に並んで現れたぞ！*600*上下の撃ち分けが必要じゃな。」"
-                    }
-                ]
-            },
-            {
-                "enemies": [
-                    {
-                        "type": "gunEnemy",
-                        "x": 2000,
-                        "yOffset": 0,
-                        "overrides": { "hp": 10, "attack": { "damage": 1 } }
+                        "text": "いつの間にこんな大量の鬼を...*600*\nきびたろうを本気で倒しにきとるぞ...*600*\n前進後退をうまく使って、華麗なかわしを見せてやるのじゃ！"
                     },
                     {
-                        "type": "gunEnemy",
-                        "x": 2000,
-                        "yOffset": 80,
-                        "overrides": { "hp": 10, "attack": { "damage": 1 } }
-                    },
-                    {
-                        "type": "gunEnemy",
-                        "x": 2000,
-                        "yOffset": 160,
-                        "overrides": { "hp": 10, "attack": { "damage": 1 } }
-                    }
-                ],
-                "events": [
-                    {
                         "type": "dialog",
-                        "triggerX": 100,
-                        "chara": "dialogOjisan.png",
-                        "text": "「3体積みじゃ！*600*弱点を見極めて、一気に仕留めるんじゃ！」"
-                    }
-                ]
-            },
-            {
-                "enemies": [
-                    {"type": "togeEnemy", "x": 1800},
-                    {"type": "gunEnemy", "x": 2200},
-                    {"type": "gunEnemy", "x": 2600}
-                ],
-                "events": [
-                    {
-                        "type": "dialog",
-                        "triggerX": 100,
-                        "chara": "dialogOjisan.png",
-                        "text": "「おやっと、新しい部隊がやってきたぞ！*600*あのトゲ鬼は前に進んでくるから危険じゃ。後ろの銃鬼にも気をつけるのじゃ！」"
+                        "triggerX": 800,
+                        "chara": "dialogObaasan.png",
+                        "text": "クリックでずっと銃を撃ちながら向きを調整するのがコツよ！\n*600*さっきの敵より弱いわ、すぐ倒せるはずよ！*600*\n頑張って！きびたろう！"
                     }
                 ]
             },
             {
                 "enemies": [
                     {"type": "togeEnemy", "x": 1600},
-                    {"type": "togeEnemy", "x": 2000},
-                    {"type": "gunEnemy", "x": 2400},
-                    {"type": "gunEnemy", "x": 2800}
-                ]
-            },
-            {
-                "enemies": [
-                    {"type": "togeEnemy", "x": 1400},
-                    {"type": "togeEnemy", "x": 1700},
-                    {"type": "togeEnemy", "x": 2100},
-                    {"type": "gunEnemy", "x": 2500},
-                    {"type": "gunEnemy", "x": 2900}
+                    {"type": "togeEnemy", "x": 1000},
+                    {"type": "gunEnemy", "x": 1400},
+                    {"type": "gunEnemy", "x": 1800}
                 ],
                 "events": [
                     {
                         "type": "dialog",
                         "triggerX": 100,
                         "chara": "dialogOjisan.png",
-                        "text": "「トゲ鬼を中心に銃鬼が援護してくるぞ！引きながら確実に1体ずつ仕留めるんじゃ！」"
+                        "text": "さっきと違う種類の鬼がいるぞ！*600*鉄球を投げてくる敵のようじゃ。当たったら痛そうじゃのう..."
+                    },
+                    {
+                        "type": "dialog",
+                        "triggerX": 800,
+                        "chara": "dialogObaasan.png",
+                        "text": "台車を倒されないように気をつけて！*600*きびだんごを守るのよ！"
                     }
                 ]
             },
             {
                 "enemies": [
-                    {"type": "togeEnemy", "x": 1500},
-                    {"type": "togeEnemy", "x": 1800},
-                    {"type": "gunEnemy", "x": 2100},
-                    {"type": "togeEnemy", "x": 2400},
-                    {"type": "togeEnemy", "x": 2700},
-                    {"type": "gunEnemy", "x": 3000}
+                    {
+                        "type": "gunEnemy",
+                        "x": 1400
+                    },
+                    
+                    {
+                        "type": "gunEnemy",
+                        "x": 1350,
+                        
+                        "overrides": {
+                            "hp": 1,
+                            "attack": {
+                                "damage": 1
+                            },
+                            "width": 41.25,
+                            "height": 63.25,
+                            "reward": {
+                                "gold": 5,
+                                "exp": 5
+                            }
+                        }
+                    },
+                    {
+                        "type": "gunEnemy",
+                        "x": 1300,
+                        "overrides": {
+                            "hp": 1,
+                            "attack": {
+                                "damage": 1
+                            },
+                            "width": 41.25,
+                            "height": 63.25,
+                            "reward": {
+                                "gold": 5,
+                                "exp": 5
+                            }
+                        }
+                    },
+                    {
+                        "type": "togeEnemy",
+                        "x": 1700
+                    },
+                    {
+                        "type": "gunEnemy",
+                        "x": 3000
+                    }
+                ],
+                "events": [
+                    {
+                        "type": "dialog",
+                        "triggerX": 100,
+                        "chara": "dialogOjisan.png",
+                        "text": "トゲ鬼を銃鬼が援護してくるぞ！防御を固めるんじゃ！"
+                    }
                 ]
             },
             {
                 "enemies": [
                     {"type": "togeEnemy", "x": 1400},
                     {"type": "gunEnemy", "x": 1700},
-                    {"type": "togeEnemy", "x": 2000},
-                    {"type": "gunEnemy", "x": 2300},
-                    {"type": "togeEnemy", "x": 2600},
-                    {"type": "gunEnemy", "x": 2900},
-                    {"type": "togeEnemy", "x": 3200}
+                    {"type": "togeEnemy", "x": 1000},
+                    {"type": "gunEnemy", "x": 1300},
+                    {"type": "togeEnemy", "x": 1600},
+                    {"type": "gunEnemy", "x": 1900},
+                    {"type": "togeEnemy", "x": 3100}
                 ],
                 "events": [
                     {
                         "type": "dialog",
                         "triggerX": 100,
                         "chara": "dialogOjisan.png",
-                        "text": "「これは激しいぞ！トゲ鬼と銃鬼の混合部隊じゃ！*600*ダッシュと射撃で上手く距離をとるのじゃ！」"
+                        "text": "これは激しいぞ！トゲ鬼と銃鬼の混合部隊じゃ！\n*600*1体ずつ確実に倒すのじゃ！"
                     }
                 ]
             },
@@ -183,9 +278,9 @@
                     {"type": "togeEnemy", "x": 1300},
                     {"type": "togeEnemy", "x": 1600},
                     {"type": "gunEnemy", "x": 1900},
-                    {"type": "togeEnemy", "x": 2200},
-                    {"type": "gunEnemy", "x": 2500},
-                    {"type": "togeEnemy", "x": 2800},
+                    {"type": "togeEnemy", "x": 1100},
+                    {"type": "gunEnemy", "x": 1500},
+                    {"type": "togeEnemy", "x": 1800},
                     {"type": "gunEnemy", "x": 3100},
                     {"type": "gunEnemy", "x": 3400}
                 ],
@@ -194,50 +289,67 @@
                         "type": "dialog",
                         "triggerX": 100,
                         "chara": "dialogOjisan.png",
-                        "text": "「ここが第一関門の総力戦じゃ！*600*全力を尽くして突破するのじゃ！」"
+                        "text": "ここが敵のピークじゃ！\n*600*特製きびだんごのの力で乗り切るんだ！"
                     }
                 ]
             },
             {
                 "enemies": [
-                    {"type": "takenokoEnemy", "x": 1400},
-                    {"type": "togeEnemy", "x": 1800},
-                    {"type": "gunEnemy", "x": 2300},
-                    {"type": "gunEnemy", "x": 2600}
+                    {
+                        "type": "takenokoEnemy",
+                        "x": 1400
+                    },
+                    {
+                        "type": "togeEnemy",
+                        "x": 1800
+                    },
+                    {
+                        "type": "gunEnemy",
+                        "x": 1300
+                    },
+                    {
+                        "type": "gunEnemy",
+                        "x": 1600
+                    }
                 ],
                 "events": [
                     {
                         "type": "dialog",
                         "triggerX": 100,
                         "chara": "dialogOjisan.png",
-                        "text": "「おやっと、足元に注意じゃ！*600*地面から現れるタケノコ鬼が、銃鬼たちの戦いを邪魔し始めたぞ！」"
+                        "text": "新しい敵じゃ。ちっちゃいが油断はできんぞ！\n*600*そいつが植えたタケノコの上に乗ったが最後、*200*その凄まじい成長速度の餌食になってしまうんじゃ...\nバックでギリギリ回避できることもあるが、好奇心で乗るのはおすすめできんぞ、、"
                     }
-                ]
-            },
-            {
-                "enemies": [
-                    {"type": "takenokoEnemy", "x": 1500},
-                    {"type": "togeEnemy", "x": 1800},
-                    {"type": "togeEnemy", "x": 2100},
-                    {"type": "gunEnemy", "x": 2500},
-                    {"type": "gunEnemy", "x": 2800}
                 ]
             },
             {
                 "enemies": [
                     {"type": "takenokoEnemy", "x": 1400},
                     {"type": "togeEnemy", "x": 1700},
-                    {"type": "takenokoEnemy", "x": 2000},
-                    {"type": "togeEnemy", "x": 2200},
-                    {"type": "gunEnemy", "x": 2600},
-                    {"type": "gunEnemy", "x": 2900}
+                    {"type": "takenokoEnemy", "x": 1000},
+                    {"type": "togeEnemy", "x": 1100},
+                    {"type": "gunEnemy", "x": 1400,  "overrides": { "hp": 5, "attack": { "damage": 1 }, "width": 41.25, "height": 63.25, "reward": { "gold": 5, "exp": 5 } }},
+                    {"type": "gunEnemy", "x": 1600},
+                    {"type": "gunEnemy", "x": 1900},
+                    {"type": "gunEnemy", "x": 3150,  "overrides": { "hp": 8, "attack": { "damage": 3 }, "width": 41.25, "height": 63.25, "reward": { "gold": 5, "exp": 5 } }}
                 ],
                 "events": [
                     {
                         "type": "dialog",
                         "triggerX": 100,
                         "chara": "dialogOjisan.png",
-                        "text": "「タケノコ鬼の妨害に気を取られすぎると、銃鬼とトゲ鬼の連携にやられてしまうぞ！」"
+                        "text": "何故かは知らんがトゲ鉄球の鬼を倒すとお金がガッポリじゃ。\n*600*鉄球が高くつくのかのう？"
+                    },
+                    {
+                        "type": "dialog",
+                        "triggerX": 125,
+                        "chara": "dialogObaasan.png",
+                        "text": "もらえるものはもらっておきましょう！帰りが楽しみだわ！"
+                    },
+                    {
+                        "type": "dialog",
+                        "triggerX": 135,
+                        "chara": "dialogKibidango.png",
+                        "text": "..."
                     }
                 ]
             },
@@ -245,32 +357,16 @@
                 "enemies": [
                     {"type": "takenokoEnemy", "x": 1300},
                     {"type": "togeEnemy", "x": 1600},
+                    {"type": "gunEnemy", "x": 1750,  "overrides": { "hp": 1, "attack": { "damage": 1 }, "width": 41.25, "height": 63.25, "reward": { "gold": 5, "exp": 5 } }},
+                    {"type": "gunEnemy", "x": 1750, "overrides": { "hp": 1, "attack": { "damage": 1 }, "width": 41.25, "height": 63.25, "reward": { "gold": 5, "exp": 5 } }},
                     {"type": "togeEnemy", "x": 1900},
-                    {"type": "togeEnemy", "x": 2200},
-                    {"type": "gunEnemy", "x": 2500},
-                    {"type": "gunEnemy", "x": 2800},
+                    {"type": "togeEnemy", "x": 1100},
+                    {"type": "gunEnemy", "x": 1110,  "overrides": { "hp": 1, "attack": { "damage": 1 }, "width": 41.25, "height": 63.25, "reward": { "gold": 5, "exp": 5 } }},
+                    {"type": "gunEnemy", "x": 1350,  "overrides": { "hp": 1, "attack": { "damage": 1 }, "width": 41.25, "height": 63.25, "reward": { "gold": 5, "exp": 5 } }},
+                    {"type": "gunEnemy", "x": 1400, "overrides": { "hp": 1, "attack": { "damage": 1 }, "width": 41.25, "height": 63.25, "reward": { "gold": 5, "exp": 5 } }},
+                    {"type": "gunEnemy", "x": 1500},
+                    {"type": "gunEnemy", "x": 1800},
                     {"type": "gunEnemy", "x": 3100}
-                ]
-            },
-            {
-                "enemies": [
-                    {"type": "takenokoEnemy", "x": 1200},
-                    {"type": "togeEnemy", "x": 1500},
-                    {"type": "takenokoEnemy", "x": 1800},
-                    {"type": "togeEnemy", "x": 1900},
-                    {"type": "togeEnemy", "x": 2300},
-                    {"type": "gunEnemy", "x": 2600},
-                    {"type": "gunEnemy", "x": 2800},
-                    {"type": "gunEnemy", "x": 3000},
-                    {"type": "gunEnemy", "x": 3300}
-                ],
-                "events": [
-                    {
-                        "type": "dialog",
-                        "triggerX": 100,
-                        "chara": "dialogOjisan.png",
-                        "text": "「これが第一関門の総力戦じゃ！*600*タケノコ鬼の妨害を潜り抜け、トゲ鬼と銃鬼の部隊を打ち破るのじゃ！」"
-                    }
                 ]
             },
             {
@@ -279,100 +375,37 @@
                     {
                         "type": "dialog",
                         "triggerX": 500,
-                        "chara": "dialogOjisan.png",
-                        "text": "「よくやった、きび太郎！第一関門を突破したぞ！*1000*\nThank you for playing!」"
+                        "chara": "dialogObaasan.png",
+                        "text": ".*200*.*200*.右上に*200*.*200*.*200*不吉なものが.*200*.*200*."
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "ステージ2 - 鬼門突破",
-        "timeLimit": 300,
-        "chunks": [
-            {
-                "enemies": [
-                    {"type": "togeEnemy", "x": 800},
-                    {"type": "gunEnemy", "x": 1400}
-                ]
             },
             {
                 "enemies": [
-                    {"type": "takenokoEnemy", "x": 600},
-                    {"type": "togeEnemy", "x": 1100},
-                    {"type": "gunEnemy", "x": 1500}
-                ]
-            },
-            {
-                "enemies": [
-                    {"type": "gunEnemy", "x": 500},
-                    {"type": "takenokoEnemy", "x": 900},
-                    {"type": "togeEnemy", "x": 1300},
-                    {"type": "gunEnemy", "x": 1600}
-                ]
-            },
-            {
-                "enemies": [
-                    {"type": "takenokoEnemy", "x": 400},
-                    {"type": "togeEnemy", "x": 800},
-                    {"type": "takenokoEnemy", "x": 1200},
-                    {"type": "gunEnemy", "x": 1500}
-                ]
-            },
-            {
-                "enemies": [
-                    {"type": "gunEnemy", "x": 400},
-                    {"type": "gunEnemy", "x": 800},
-                    {"type": "togeEnemy", "x": 1200},
-                    {"type": "togeEnemy", "x": 1600}
-                ]
-            },
-            {
-                "enemies": [
-                    {"type": "takenokoEnemy", "x": 300},
-                    {"type": "gunEnemy", "x": 700},
-                    {"type": "togeEnemy", "x": 1000},
-                    {"type": "takenokoEnemy", "x": 1300},
-                    {"type": "gunEnemy", "x": 1600}
-                ]
-            },
-            {
-                "enemies": [
-                    {"type": "togeEnemy", "x": 400},
-                    {"type": "takenokoEnemy", "x": 700},
-                    {"type": "gunEnemy", "x": 1000},
-                    {"type": "togeEnemy", "x": 1300},
-                    {"type": "gunEnemy", "x": 1600}
-                ]
-            },
-            {
-                "enemies": [
-                    {"type": "takenokoEnemy", "x": 300},
-                    {"type": "takenokoEnemy", "x": 600},
-                    {"type": "gunEnemy", "x": 900},
-                    {"type": "gunEnemy", "x": 1200},
-                    {"type": "togeEnemy", "x": 1550},
-                    {"type": "togeEnemy", "x": 1750}
-                ]
-            },
-            {
-                "enemies": [
-                    {"type": "gunEnemy", "x": 400},
-                    {"type": "togeEnemy", "x": 700},
-                    {"type": "takenokoEnemy", "x": 1000},
-                    {"type": "gunEnemy", "x": 1300},
-                    {"type": "togeEnemy", "x": 1600}
-                ]
-            },
-            {
-                "enemies": [
-                    {"type": "takenokoEnemy", "x": 300},
-                    {"type": "gunEnemy", "x": 550},
-                    {"type": "togeEnemy", "x": 800},
-                    {"type": "takenokoEnemy", "x": 1050},
-                    {"type": "gunEnemy", "x": 1300},
-                    {"type": "togeEnemy", "x": 1550},
-                    {"type": "gunEnemy", "x": 1800}
+                    {
+                        "type": "armoredBoss",
+                        "x": 1400
+                    }
+                ],
+                "events": [
+                    {
+                        "type": "dialog",
+                        "triggerX": 0,
+                        "chara": "dialogObaasan.png",
+                        "text": "み、見て.*200*.*200*.*200*鬼の大将がいるわ！"
+                    },
+                    {
+                        "type": "dialog",
+                        "triggerX": 125,
+                        "chara": "dialogOjisan.png",
+                        "text": "どうりで静かじゃったわけじゃ...*600*\nふんばるんじゃきびたろう、*500*これが終われば宿じゃぞ！"
+                    },
+                    {
+                        "type": "dialog",
+                        "triggerX": 130,
+                        "chara": "dialogObaasan.png",
+                        "text": "うまく避けないときびだんごが危ないわ！*500*落としたら許さないわよ！！"
+                    }
                 ]
             }
         ]
