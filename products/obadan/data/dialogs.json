@@ -3,7 +3,8 @@
     { "chara": "dialogOjisan.png", "text": "ここでは戦いに役立ついろんなものが購入できるぞ！" },
     { "chara": "dialogOjisan.png", "text": "操作の基本は最初と同じ、右下で荷物の購入ができるぞ！" },
     { "chara": "dialogOjisan.png", "text": "買ったアイテムを荷造りして、再び戦いに挑むんじゃ！" },
-    { "chara": "dialogOjisan.png", "text": "鬼によっての相性もあるようじゃぞ。心して選ぶんじゃぞ" }
+    { "chara": "dialogOjisan.png", "text": "鬼によっての相性もあるようじゃぞ。心して選ぶんじゃぞ" },
+    { "chara": "dialogObaasan.png", "text": "HP回復アイテムが売っていたらは常に2個ぐらいは持っておいたほうがいいかもしれないわね.." }
   ],
   "help_reject": [
     { "chara": "dialogOjisan.png", "text": "ドパガキにくれてやる説明はないのじゃ。出直してくるのじゃ。" },
@@ -24,7 +25,7 @@
     { "chara": "dialogOjisan.png", "text": "やられてしまったか…次は気をつけるのじゃ。" }
   ],
   "gameover_hp_zero_togeEnemy": [
-    { "chara": "dialogOjisan.png", "text": "鉄球は全力疾走なら避けられることもあるんじゃ" }
+    { "chara": "dialogOjisan.png", "text": "中盤からはHP回復が大切になってくるぞ" }
   ],
   "gameover_hp_zero_gunEnemy": [
     { "chara": "dialogOjisan.png", "text": "銃に当たってしまったか…弾速をつけてみるのがオススメじゃぞ" }
