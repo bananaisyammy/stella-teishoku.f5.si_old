@@ -1,7 +1,7 @@
 [
   {
     "name": "ステージ1 - 旅立ちの朝",
-    "timeLimit": 300,
+    "timeLimit": 450,
     "chunks": [
       {
         "enemies": [],
@@ -28,7 +28,7 @@
             "type": "dialog",
             "triggerX": 600,
             "chara": "dialogObaasan.png",
-            "text": "A/Dの移動キーと、Shiftキーを交互に連打でダッシュもできるわよ！\n\n*600*(物理的に疲れるから無理はしちゃだめよ!)"
+            "text": "A/Dの移動キーと、Shiftキーを同時押しでダッシュもできるわよ！"
           },
           {
             "type": "dialog",
@@ -186,7 +186,7 @@
             "overrides": {
               "hp": 1,
               "attack": {
-                "damage": 1
+                "damage": 2
               },
               "width": 41.25,
               "height": 63.25,
@@ -200,7 +200,7 @@
             "type": "gunEnemy",
             "x": 1000,
             "overrides": {
-              "hp": 1,
+              "hp": 5,
               "attack": {
                 "damage": 1
               },
@@ -226,7 +226,7 @@
             "overrides": {
               "hp": 1,
               "attack": {
-                "damage": 1
+                "damage": 5
               },
               "width": 41.25,
               "height": 63.25,
@@ -430,7 +430,13 @@
           },
           {
             "type": "togeEnemy",
-            "x": 1800
+            "x": 1800,
+            "overrides": {
+              "attack": {
+                "damage": 2
+              },
+              "hp": 5
+            }
           },
           {
             "type": "gunEnemy",
@@ -466,7 +472,13 @@
           },
           {
             "type": "togeEnemy",
-            "x": 1100
+            "x": 1100,
+            "overrides": {
+              "attack": {
+                "damage": 2
+              },
+              "hp": 5
+            }
           },
           {
             "type": "gunEnemy",
@@ -486,19 +498,7 @@
           },
           {
             "type": "gunEnemy",
-            "x": 1600,
-            "overrides": {
-              "hp": 5,
-              "attack": {
-                "damage": 1
-              },
-              "width": 41.25,
-              "height": 63.25,
-              "reward": {
-                "gold": 5,
-                "exp": 5
-              }
-            }
+            "x": 1600
           },
           {
             "type": "gunEnemy",
@@ -534,15 +534,20 @@
           },
           {
             "type": "togeEnemy",
-            "x": 1600
+            "x": 1600,
+            "overrides": {
+              "attack": {
+                "damage": 5
+              }
+            }
           },
           {
             "type": "gunEnemy",
             "x": 1750,
             "overrides": {
-              "hp": 1,
+              "hp": 5,
               "attack": {
-                "damage": 1
+                "damage": 2
               },
               "width": 41.25,
               "height": 63.25,
@@ -558,7 +563,7 @@
             "overrides": {
               "hp": 1,
               "attack": {
-                "damage": 1
+                "damage": 2
               },
               "width": 41.25,
               "height": 63.25,
@@ -570,7 +575,13 @@
           },
           {
             "type": "togeEnemy",
-            "x": 1900
+            "x": 1900,
+            "overrides": {
+              "attack": {
+                "damage": 2
+              },
+              "hp": 5
+            }
           },
           {
             "type": "togeEnemy",
@@ -586,7 +597,7 @@
             "type": "gunEnemy",
             "x": 1110,
             "overrides": {
-              "hp": 1,
+              "hp": 5,
               "attack": {
                 "damage": 1
               },
@@ -604,7 +615,7 @@
             "overrides": {
               "hp": 1,
               "attack": {
-                "damage": 1
+                "damage": 2
               },
               "width": 41.25,
               "height": 63.25,
@@ -620,7 +631,7 @@
             "overrides": {
               "hp": 1,
               "attack": {
-                "damage": 1
+                "damage": 2
               },
               "width": 41.25,
               "height": 63.25,
