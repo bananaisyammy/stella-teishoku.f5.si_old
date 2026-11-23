@@ -72,7 +72,8 @@
             "overrides": {
               "hp": 1,
               "attack": {
-                "damage": 1
+                "damage": 1,
+                "recoilScale": 0.001
               },
               "width": 41.25,
               "height": 63.25,
@@ -88,7 +89,8 @@
             "overrides": {
               "hp": 1,
               "attack": {
-                "damage": 1
+                "damage": 1,
+                "recoilScale": 0.001
               },
               "width": 41.25,
               "height": 63.25,
@@ -104,7 +106,8 @@
             "overrides": {
               "hp": 1,
               "attack": {
-                "damage": 1
+                "damage": 1,
+                "recoilScale": 0.001
               },
               "width": 41.25,
               "height": 63.25,
@@ -120,7 +123,8 @@
             "overrides": {
               "hp": 1,
               "attack": {
-                "damage": 1
+                "damage": 1,
+                "recoilScale": 0.001
               },
               "width": 41.25,
               "height": 63.25,
@@ -136,7 +140,8 @@
             "overrides": {
               "hp": 1,
               "attack": {
-                "damage": 1
+                "damage": 1,
+                "recoilScale": 0.001
               },
               "width": 41.25,
               "height": 63.25,
@@ -152,7 +157,8 @@
             "overrides": {
               "hp": 1,
               "attack": {
-                "damage": 1
+                "damage": 1,
+                "recoilScale": 0.001
               },
               "width": 41.25,
               "height": 63.25,
@@ -186,7 +192,8 @@
             "overrides": {
               "hp": 1,
               "attack": {
-                "damage": 2
+                "damage": 2,
+                "recoilScale": 0.001
               },
               "width": 41.25,
               "height": 63.25,
@@ -202,7 +209,8 @@
             "overrides": {
               "hp": 5,
               "attack": {
-                "damage": 1
+                "damage": 1,
+                "recoilScale": 0.001
               },
               "width": 41.25,
               "height": 63.25,
@@ -226,7 +234,8 @@
             "overrides": {
               "hp": 1,
               "attack": {
-                "damage": 5
+                "damage": 5,
+                "recoilScale": 0.001
               },
               "width": 41.25,
               "height": 63.25,
@@ -272,7 +281,8 @@
             "overrides": {
               "hp": 1,
               "attack": {
-                "damage": 1
+                "damage": 1,
+                "recoilScale": 0.001
               },
               "width": 41.25,
               "height": 63.25,
@@ -288,7 +298,8 @@
             "overrides": {
               "hp": 1,
               "attack": {
-                "damage": 1
+                "damage": 1,
+                "recoilScale": 0.001
               },
               "width": 41.25,
               "height": 63.25,
@@ -446,14 +457,6 @@
             "type": "gunEnemy",
             "x": 1600
           }
-        ],
-        "events": [
-          {
-            "type": "dialog",
-            "triggerX": 100,
-            "chara": "dialogOjisan.png",
-            "text": "新しい敵じゃ。ちっちゃいが油断はできんぞ！\n*600*そいつが植えたタケノコの上に乗ったが最後、*200*その凄まじい成長速度の餌食になってしまうんじゃ...\nバックでギリギリ回避できることもあるが、好奇心で乗るのはおすすめできんぞ、、"
-          }
         ]
       },
       {
@@ -486,7 +489,8 @@
             "overrides": {
               "hp": 5,
               "attack": {
-                "damage": 1
+                "damage": 1,
+                "recoilScale": 0.001
               },
               "width": 41.25,
               "height": 63.25,
@@ -547,7 +551,8 @@
             "overrides": {
               "hp": 5,
               "attack": {
-                "damage": 2
+                "damage": 2,
+                "recoilScale": 0.001
               },
               "width": 41.25,
               "height": 63.25,
@@ -563,7 +568,8 @@
             "overrides": {
               "hp": 1,
               "attack": {
-                "damage": 2
+                "damage": 2,
+                "recoilScale": 0.001
               },
               "width": 41.25,
               "height": 63.25,
@@ -599,7 +605,8 @@
             "overrides": {
               "hp": 5,
               "attack": {
-                "damage": 1
+                "damage": 1,
+                "recoilScale": 0.001
               },
               "width": 41.25,
               "height": 63.25,
@@ -615,7 +622,8 @@
             "overrides": {
               "hp": 1,
               "attack": {
-                "damage": 2
+                "damage": 2,
+                "recoilScale": 0.001
               },
               "width": 41.25,
               "height": 63.25,
@@ -631,7 +639,8 @@
             "overrides": {
               "hp": 1,
               "attack": {
-                "damage": 2
+                "damage": 2,
+                "recoilScale": 0.001
               },
               "width": 41.25,
               "height": 63.25,
@@ -651,7 +660,8 @@
             "overrides": {
               "hp": 1,
               "attack": {
-                "damage": 1
+                "damage": 1,
+                "recoilScale": 0.001
               },
               "width": 41.25,
               "height": 63.25,

@@ -10,6 +10,11 @@
     { "chara": "dialogOjisan.png", "text": "ドパガキにくれてやる説明はないのじゃ。出直してくるのじゃ。" },
     { "chara": "dialogOjisan.png", "text": "もう一度ボタンを押したら3/4の確率で許してあげるかもしれないのじゃ。" }
   ],
+  "takenoko_intro": [
+    { "chara": "dialogOjisan.png", "text": "新しい敵じゃ。ちっちゃいが油断はできんぞ！\n*600*そいつが植えたタケノコの上に乗ったが最後、*200*その凄まじい成長速度の餌食になってしまうんじゃ..." },
+    { "chara": "dialogObaasan.png", "text": "タケノコがカートの下で成長すると、カートがひっくりかえってしまうわ！" },
+    { "chara": "dialogOjisan.png", "text": "大切なので２回言うぞ！*200*カ*200*ー*200*ト*200*が*200*ひ*200*っ*200*く*200*り*200*か*200*え*200*っ*200*て*200*し*200*ま*200*う*200*ん*200*じ*200*ゃ！" }
+  ],
   "packing_enter_first": [
     { "chara": "dialogOjisan.png", "text": "何事も準備が肝心じゃぞ　*600*きびだんごを載せて出発じゃ！" },
     { "chara": "dialogOjisan.png", "text": "まずは＋タブを選択して、アイテムをな追加モードにするんじゃ" },
@@ -19,7 +24,13 @@
     { "chara": "dialogObaasan.png", "text": "わたしたちが作った大切なきびだんご、落としちゃだめよ！絶対！！" }
   ],
   "gameover_jigoku":[
-    { "chara": "dialogObaasan.png", "text": "何かが地獄へ落ちたようだわ...\n*600*ごめんなさい。*600*フィードバックを送ってくれると助かるわ。*600*ただし、*600*故˝*100*意˝*100*な”*100*ら˝*100*˝*100*許さ˝*100*な˝*100*い˝*100*わ˝*100*よ˝*100*??" }
+    { "chara": "dialogObaasan.png", "text": "何かが地獄へ落ちたようだわ...（{seconds}秒）\n*600*ごめんなさい。*600*フィードバックを送ってくれると助かるわ。*600*ただし、*600*故˝*100*意˝*100*な”*100*ら˝*100*˝*100*許さ˝*100*な˝*100*い˝*100*わ˝*100*よ˝*100*??" }
+  ],
+  "gameover_omaekokomadegannabttekokodetumutokahinikudanaoibakananjanaikawarawarareisyouuokittu": [
+    { "chara": "dialogObaasan.png", "text": "起動から{seconds}秒もかけてここまで来て…*600*暇人、、なのね、、、" }
+  ],
+  "cart_10_purchased": [
+    { "chara": "dialogObaasan.png", "text": "カートを10回も買ったのね…！\n*600*起動から{seconds}秒で達成よ、おめでとう！！" }
   ],
   "gameover_hp_zero": [
     { "chara": "dialogOjisan.png", "text": "やられてしまったか…次は気をつけるのじゃ。" }
